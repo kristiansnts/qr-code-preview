@@ -10,6 +10,7 @@
     
     /* == Color Assets == */
     --bg-color: hsl(212, 45%, 89%);
+    --container-color: hsl(0, 0%, 100%);
 }
 
 body {
@@ -24,7 +25,8 @@ body {
     width: 20rem;
     height: 32rem;
     border-radius: 1rem;
-    background-color: aliceblue;
+    background-color: var(--container-color);
+    box-shadow: 4px 6px 16px #ccc;
 }
 
 .container img {
