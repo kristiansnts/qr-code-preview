@@ -1,0 +1,53 @@
+* {
+
+    /* == CSS Reset == */
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+
+    /* == Font-Assets == */
+    font-family: 'Outfit', sans-serif;
+    
+    /* == Color Assets == */
+    --bg-color: hsl(212, 45%, 89%);
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container {
+    width: 20rem;
+    height: 32rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+
+.container img {
+    width: 100%;
+    padding: 1.25rem;
+    border-radius: 2rem;
+}
+
+.container-info {
+    width: 100%;
+    padding: 0 1.25rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    padding: 1.25rem 1.25rem;
+}
+
+
+
+
